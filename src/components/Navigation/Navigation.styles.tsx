@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background-color: var(--primary-color);
-  color: var(--text-color);
+  color: var(--text-primary-color);
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
 
   header {
@@ -20,7 +20,7 @@ export const Nav = styled.nav`
     font-weight: bold;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: "Abril Fatface", serif;
     padding-left: 25rem;
 
     @media screen and (max-width: 1026px) {
@@ -30,7 +30,7 @@ export const Nav = styled.nav`
 
     @media screen and (max-width: 768px) {
       font-size: 1.8rem;
-      padding-left: 3rem;
+      padding-left: 5rem;
     }
   }
 

@@ -1,7 +1,11 @@
 :root {
-    --primary-color: #22223b;
-    --secondary-color: #4a4e69;
-    --text-color: #f2e9e4;
+    --primary-color: #463f3a;
+    --secondary-color: #bcb8b1;
+
+    --text-primary-color: #e6e8e6;
+    --text-secondary-color: #463f3a;
+
+    --border-color: #463f3a8c;
 }
 
 *, ::after, ::before {

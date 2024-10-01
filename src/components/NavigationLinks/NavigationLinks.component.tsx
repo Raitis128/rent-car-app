@@ -5,7 +5,7 @@ interface Props {
 }
 
 const NavigationLinks = ({ className }: Props) => {
-  const links = ["Search", "Cars", "Tips", "FAQ", "Contact"];
+  const links = ["Search", "Cars", "FAQ", "Contact"];
 
   return (
     <Links className={className}>

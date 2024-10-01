@@ -11,7 +11,7 @@ export const Links = styled.ul`
   }
 
   @media screen and (max-width: 768px) {
-    padding-right: 3rem;
+    padding-right: 5rem;
   }
 
   &.default-links {
@@ -28,7 +28,7 @@ export const Links = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--text-color);
+    background-color: var(--text-primary-color);
     padding: 0;
 
     li {
@@ -40,8 +40,8 @@ export const Links = styled.ul`
 
       &:hover {
         background-color: var(--primary-color);
-        color: var(--text-color);
-        opacity: 0.8;
+        color: var(--text-primary-color);
+        opacity: 0.9;
       }
     }
   }
