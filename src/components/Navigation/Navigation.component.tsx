@@ -25,7 +25,7 @@ const Navigation = () => {
       </header>
       <section>
         {isBurgerOpen ? (
-          <NavigationLinks className={"hidden-links-show"} />
+          <NavigationLinks className={"hidden-links-show"} onClick={handleClick} />
         ) : (
           <NavigationLinks className={"hidden-links"} />
         )}

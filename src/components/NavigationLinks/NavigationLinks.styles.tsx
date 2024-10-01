@@ -27,22 +27,18 @@ export const Links = styled.ul`
   &.hidden-links-show {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     align-items: center;
     background-color: var(--text-primary-color);
     padding: 0;
 
     li {
-      padding: 1rem 0;
+      padding: 3rem 0;
+      font-size: 1.8rem;
       width: 100%;
-      text-align: center;
+      padding-left: 5rem;
       color: var(--primary-color);
       border-bottom: 1px solid var(--primary-color);
-
-      &:hover {
-        background-color: var(--primary-color);
-        color: var(--text-primary-color);
-        opacity: 0.9;
-      }
     }
   }
 
