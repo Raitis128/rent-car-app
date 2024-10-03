@@ -5,6 +5,8 @@ export const CarsSelectContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 30rem;
+  width: 100%;
   gap: 3rem;
 
   h2 {

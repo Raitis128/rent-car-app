@@ -4,6 +4,8 @@ export const CarsInfoContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  max-width: 30rem;
+  width: 100%;
 
   span {
     font-weight: bold;
@@ -12,8 +14,11 @@ export const CarsInfoContainer = styled.section`
   }
 
   p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   ul {
@@ -22,6 +27,10 @@ export const CarsInfoContainer = styled.section`
     align-items: center;
     gap: 1rem;
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
+  }
+  .icon {
+    width: 3rem;
+    height: 3rem;
   }
 `;

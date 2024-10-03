@@ -13,7 +13,7 @@ const Cars = () => {
   const [seats, setSeats] = useState(cars[0].seats);
 
   return (
-    <CarsContainer>
+    <CarsContainer id="cars">
       <CarSelect
         onChange={(value) =>
           cars.map((car) => {

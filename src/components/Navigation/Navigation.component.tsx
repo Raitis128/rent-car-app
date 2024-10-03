@@ -18,8 +18,10 @@ const Navigation = () => {
     <Nav>
       <header>
         <span>
-          <BiSolidCar className="car" />
-          simple car
+          <a href="#search" className="logo">
+            <BiSolidCar className="car" />
+            simple car
+          </a>
         </span>
         <NavigationLinks className={"default-links"} />
         {isBurgerOpen ? (

@@ -16,6 +16,12 @@ export const Nav = styled.nav`
     align-items: center;
   }
 
+  .logo {
+    display: flex;
+    text-decoration: none;
+    color : var(--text-primary-color);
+  }
+
   span {
     font-size: 2.7rem;
     letter-spacing: 0.2rem;

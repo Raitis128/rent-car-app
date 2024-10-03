@@ -21,6 +21,7 @@ export const SearchContainer = styled.section`
 
   @media screen and (max-width: 680px) {
     flex-direction: column;
+    gap: 5rem;
   }
 
   @media screen and (max-width: 480px) {
