@@ -22,6 +22,21 @@ export const ContactSection = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
     margin-top: 3rem;
+  }
+
+
+  @media screen and (max-width: 1026px) {
+    padding: 5rem 10rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 5rem 5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 5rem 2rem;
   }
 `;

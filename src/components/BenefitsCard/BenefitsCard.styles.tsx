@@ -8,21 +8,49 @@ export const Card = styled.section`
   text-align: center;
   max-width: 30rem;
   width: 100%;
+  min-height: 20rem;
+  border: 0.1rem solid var(--border-color);
+  border-radius: 3rem;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
+
+  @media screen and (max-width: 425px) {
+    min-height: 15rem;
+
+  }
 
   h3 {
     font-size: 2.2rem;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     letter-spacing: 0.2rem;
-    padding: 2rem 0;
+
+    @media screen and (max-width: 1026px) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: 1rem 0;
+    }
   }
 
   p {
     font-size: 1.5rem;
+
+    @media screen and (max-width: 1026px) {
+      font-size: 1.3rem;
+    }
   }
 
   span {
     font-size: 4rem;
     color: var(--icons-color);
+    display: flex;
+
+    @media screen and (max-width: 1026px) {
+      font-size: 3rem;
+    }
   }
 `;

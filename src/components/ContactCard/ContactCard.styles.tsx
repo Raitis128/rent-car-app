@@ -6,8 +6,9 @@ export const Card = styled.section`
   align-items: center;
   justify-content: center;
   text-align: justify;
-  max-width: 50rem;
+  max-width: 40rem;
   width: 100%;
+  min-height: 30rem;
   border: 1px solid var(--border-color);
   border-radius: 2rem;
   padding: 5rem;
@@ -25,17 +26,31 @@ export const Card = styled.section`
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     letter-spacing: 0.2rem;
-    padding-top: 1rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 2rem;
+    }
   }
 
   p {
     font-size: 1.6rem;
-    padding-top: 1rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 1.4rem;
+    }
   }
 
   a {
     text-decoration: none;
-    padding-top: 1rem;
     font-size: 1.6rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    min-height: 20rem;
+    padding: 3rem;
   }
 `;

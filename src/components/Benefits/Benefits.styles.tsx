@@ -11,12 +11,30 @@ export const BenefitsSection = styled.section`
     letter-spacing: 0.2rem;
     padding-bottom: 3rem;
     text-align: center;
+
+    @media screen and (max-width: 768px) {
+      padding-bottom: 0;
+    }
   }
 
   section {
+    margin: 2rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 1026px) {
+    padding: 5rem 10rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 5rem 5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 5rem 2rem;
   }
 `;
