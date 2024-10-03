@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background-color: var(--primary-color);
-  color: var(--text-primary-color);
+  color: var(--third-color);
   width: 100%;
   position: sticky;
   top: 0;
@@ -19,7 +19,8 @@ export const Nav = styled.nav`
   .logo {
     display: flex;
     text-decoration: none;
-    color : var(--text-primary-color);
+    align-items: center;
+    color: var(--third-color);
   }
 
   span {

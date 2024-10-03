@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const FAQuestion = styled.section`
   padding: 5rem 25rem;
   background-color: var(--secondary-color);
-  color: var(--text-secondary-color);
 
   @media screen and (max-width: 1026px) {
     padding: 5rem 10rem;

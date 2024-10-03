@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BenefitsSection = styled.section`
   padding: 5rem 25rem;
-  background-color: var(--text-primary-color);
+  background-color: var(--third-color);
 
   h2 {
     font-size: 2.5rem;

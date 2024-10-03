@@ -12,10 +12,18 @@ const SearchFormSchema = z.object({
     .string()
     .min(3, { message: "Location is required" })
     .max(50, { message: "Location is too long" }),
-  pickupDate: z.string().date(),
-  returnDate: z.string().date(),
-  pickupTime: z.string().time(),
-  returnTime: z.string().time(),
+  pickupDate: z.string().refine((value) => !isNaN(Date.parse(value)), {
+    message: "Pickup date must be a valid date",
+  }),
+  returnDate: z.string().refine((value) => !isNaN(Date.parse(value)), {
+    message: "Return date must be a valid date",
+  }),
+  pickupTime: z.string().regex(/^\d{2}:\d{2}$/, {
+    message: "Pickup time must be in the format HH:MM",
+  }),
+  returnTime: z.string().regex(/^\d{2}:\d{2}$/, {
+    message: "Return time must be in the format HH:MM",
+  }),
 });
 
 type SearchFormInputs = z.infer<typeof SearchFormSchema>;
@@ -52,6 +60,12 @@ const SearchForm = ({ onSubmit }: Props) => {
           <input {...register("pickupDate")} type="date" id="pickup" />
           <input {...register("pickupTime")} type="time" />
         </section>
+        {errors.pickupDate && (
+          <p className="error">{errors.pickupDate.message}</p>
+        )}
+        {errors.pickupTime && (
+          <p className="error">{errors.pickupTime.message}</p>
+        )}
       </section>
       <section className="container">
         <label htmlFor="return">Pick-up date</label>
@@ -59,6 +73,12 @@ const SearchForm = ({ onSubmit }: Props) => {
           <input {...register("returnDate")} type="date" id="return" />
           <input {...register("returnTime")} type="time" />
         </section>
+        {errors.returnDate && (
+          <p className="error">{errors.returnDate.message}</p>
+        )}
+        {errors.returnTime && (
+          <p className="error">{errors.returnTime.message}</p>
+        )}
       </section>
       <button type="submit">Search</button>
     </SearchFormContainer>

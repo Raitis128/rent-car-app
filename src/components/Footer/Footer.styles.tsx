@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
   background-color: var(--primary-color);
 
   span {
-    color: var(--text-primary-color);
+    color: var(--third-color);
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
     font-weight: bold;

@@ -12,9 +12,11 @@ export const Card = styled.section`
   border: 1px solid var(--border-color);
   border-radius: 2rem;
   padding: 5rem;
-  -webkit-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  -webkit-box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
+  -moz-box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
+  box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
 
   span {
     font-size: 4rem;
@@ -43,6 +45,7 @@ export const Card = styled.section`
   a {
     text-decoration: none;
     font-size: 1.6rem;
+    color: var(--icons-color);
 
     @media screen and (max-width: 480px) {
       font-size: 1.4rem;

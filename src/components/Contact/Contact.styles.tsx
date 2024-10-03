@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactSection = styled.section`
   padding: 5rem 25rem;
-  background-color: var(--text-primary-color);
+  background-color: var(--third-color);
 
   h2 {
     font-size: 2.5rem;
@@ -26,7 +26,6 @@ export const ContactSection = styled.section`
     gap: 2rem;
     margin-top: 3rem;
   }
-
 
   @media screen and (max-width: 1026px) {
     padding: 5rem 10rem;

@@ -32,5 +32,6 @@ export const CarsInfoContainer = styled.section`
   .icon {
     width: 3rem;
     height: 3rem;
+    color: var(--primary-color);
   }
 `;

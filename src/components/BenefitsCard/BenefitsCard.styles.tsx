@@ -12,13 +12,14 @@ export const Card = styled.section`
   border: 0.1rem solid var(--border-color);
   border-radius: 3rem;
   padding: 2rem;
-  -webkit-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.75);
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  -webkit-box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
+  -moz-box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
+  box-shadow: 0rem 0rem 1rem 0.2rem rgba(2, 48, 71, 0.75);
 
   @media screen and (max-width: 425px) {
     min-height: 15rem;
-
   }
 
   h3 {

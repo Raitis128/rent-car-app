@@ -35,7 +35,7 @@ export const SearchContainer = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(${car});
+    background-image: url("${car}");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ export const SearchContainer = styled.section`
       right: 0;
       bottom: 0;
       background-color: var(--secondary-color);
-      opacity: 0.7;
+      opacity: 0.8;
       z-index: -1;
     }
 
@@ -70,6 +70,7 @@ export const SearchContainer = styled.section`
       font-family: "Roboto", serif;
       font-weight: bold;
       letter-spacing: 0.2rem;
+      color: var(--primary-color);
 
       @media screen and (max-width: 1200px) {
         font-size: 3rem;

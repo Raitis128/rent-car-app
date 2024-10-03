@@ -8,7 +8,7 @@ import { FaRegCreditCard } from "react-icons/fa";
 const Benefits = () => {
   return (
     <BenefitsSection>
-      <h2>Why book with us</h2>
+      <h2>Why rent with us</h2>
       <section>
         <BenefitsCard
           icon={HiMiniCheckBadge}

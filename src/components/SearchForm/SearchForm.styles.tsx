@@ -24,6 +24,7 @@ export const SearchFormContainer = styled.form`
       display: flex;
       justify-content: space-evenly;
       width: 100%;
+      gap: .5rem;
     }
 
     input {
@@ -47,7 +48,7 @@ export const SearchFormContainer = styled.form`
     font-size: 1.5rem;
     font-weight: bold;
     background-color: var(--primary-color);
-    color: var(--text-primary-color);
+    color: var(--third-color);
     border: none;
     cursor: pointer;
 

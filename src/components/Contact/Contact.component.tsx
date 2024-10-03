@@ -17,7 +17,7 @@ const Contact = () => {
           icon={FaPhone}
           title="Talk to us"
           description="Give us a call for immediate assistance"
-          contact="+371 123 456"
+          contact="+371 123 456 78"
           contactType="phone"
         />
         <ContactCard

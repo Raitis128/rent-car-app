@@ -33,12 +33,16 @@ export const Links = styled.ul`
     overflow: hidden;
     position: fixed;
     align-items: center;
-    background-color: var(--text-primary-color);
+    background-color: var(--third-color);
     padding: 0;
 
     li {
       padding: 3rem 0;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
       width: 100%;
       padding-left: 5rem;
       color: var(--primary-color);
