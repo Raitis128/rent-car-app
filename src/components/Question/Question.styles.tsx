@@ -32,7 +32,7 @@ export const QuestionSection = styled.section`
   }
 
   p {
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 1rem;
     font-size: 1.6rem;
     letter-spacing: 0.1rem;

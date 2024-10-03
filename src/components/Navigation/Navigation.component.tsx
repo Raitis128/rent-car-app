@@ -3,6 +3,8 @@ import { useState } from "react";
 
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
+import { BiSolidCar } from "react-icons/bi";
+
 import NavigationLinks from "../NavigationLinks/NavigationLinks.component";
 
 const Navigation = () => {
@@ -15,7 +17,10 @@ const Navigation = () => {
   return (
     <Nav>
       <header>
-        <span>simple car</span>
+        <span>
+          <BiSolidCar className="car" />
+          simple car
+        </span>
         <NavigationLinks className={"default-links"} />
         {isBurgerOpen ? (
           <IoClose className="burger" onClick={handleClick} />
@@ -25,7 +30,10 @@ const Navigation = () => {
       </header>
       <section>
         {isBurgerOpen ? (
-          <NavigationLinks className={"hidden-links-show"} onClick={handleClick} />
+          <NavigationLinks
+            className={"hidden-links-show"}
+            onClick={handleClick}
+          />
         ) : (
           <NavigationLinks className={"hidden-links"} />
         )}

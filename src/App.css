@@ -6,13 +6,15 @@
     --text-secondary-color: #463f3a;
 
     --border-color: #463f3a8c;
+
+    --icons-color: #702632;
 }
 
 *, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {

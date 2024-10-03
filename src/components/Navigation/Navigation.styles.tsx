@@ -17,11 +17,14 @@ export const Nav = styled.nav`
 
   span {
     font-size: 2.7rem;
-    font-weight: bold;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
-    font-family: "Abril Fatface", serif;
+    font-family: "Anton", serif;
     padding-left: 25rem;
+
+    .car {
+      margin-right: 1rem;
+    }
 
     @media screen and (max-width: 1026px) {
       font-size: 2.3rem;
