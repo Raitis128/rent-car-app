@@ -8,6 +8,8 @@
     --border-color: #463f3a8c;
 
     --icons-color: #702632;
+
+    --error-color: #B61A1A;
 }
 
 *, ::after, ::before {

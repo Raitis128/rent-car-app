@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { BiSolidCar } from "react-icons/bi";
+import { IoCarSportSharp } from "react-icons/io5";
 
 import NavigationLinks from "../NavigationLinks/NavigationLinks.component";
 
@@ -19,7 +19,7 @@ const Navigation = () => {
       <header>
         <span>
           <a href="#search" className="logo">
-            <BiSolidCar className="car" />
+            <IoCarSportSharp className="car" />
             simple car
           </a>
         </span>

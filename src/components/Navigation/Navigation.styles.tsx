@@ -31,6 +31,7 @@ export const Nav = styled.nav`
 
     .car {
       margin-right: 1rem;
+      font-size: 3rem;
     }
 
     @media screen and (max-width: 1026px) {

@@ -55,4 +55,11 @@ export const SearchFormContainer = styled.form`
       opacity: 0.8;
     }
   }
+
+  .error {
+    color: var(--error-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
 `;
