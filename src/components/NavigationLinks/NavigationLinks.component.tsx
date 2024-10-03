@@ -12,7 +12,7 @@ const NavigationLinks = ({ className, onClick }: Props) => {
     <Links className={className}>
       {links.map((link, index) => (
         <li key={index} onClick={onClick}>
-          <a href="#">{link}</a>
+          <a href={`#${link.toLowerCase()}`}>{link}</a>
         </li>
       ))}
     </Links>

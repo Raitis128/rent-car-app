@@ -42,7 +42,7 @@ const Faq = () => {
   ];
 
   return (
-    <FAQuestion>
+    <FAQuestion id="faq">
       <h2>FAQs about renting a car in Riga</h2>
       {questions.map((question, index) => (
         <Question

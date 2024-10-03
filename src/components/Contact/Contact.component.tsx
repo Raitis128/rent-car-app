@@ -6,7 +6,7 @@ import ContactCard from "../ContactCard/ContactCard.component";
 
 const Contact = () => {
   return (
-    <ContactSection>
+    <ContactSection id="contact">
       <h2>Get in touch</h2>
       <p>
         Want to get in touch? We'd love to hear from you! Here is how you can

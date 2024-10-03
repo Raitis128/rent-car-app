@@ -3,7 +3,7 @@ import { SearchContainer } from "./Search.styles";
 
 const Search = () => {
   return (
-    <SearchContainer>
+    <SearchContainer id="search">
       <SearchForm />
       <section className="text-container">
         <h1>Find Your Perfect Rental Car</h1>

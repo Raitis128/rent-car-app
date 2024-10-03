@@ -1,4 +1,5 @@
 import Benefits from "./components/Benefits/Benefits.component";
+import Cars from "./components/Cars/Cars.component";
 import Contact from "./components/Contact/Contact.component";
 import Faq from "./components/Faq/Faq.component";
 import Footer from "./components/Footer/Footer.component";
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navigation />
       <Search />
+      <Cars />
       <Benefits />
       <Faq />
       <Contact />

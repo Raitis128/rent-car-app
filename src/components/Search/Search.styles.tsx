@@ -9,7 +9,7 @@ export const SearchContainer = styled.section`
   align-items: center;
   overflow: hidden;
   padding: 5rem 25rem;
-  gap: 5rem;
+  gap: 10rem;
 
   @media screen and (max-width: 1026px) {
     padding: 5rem 10rem;
@@ -19,7 +19,7 @@ export const SearchContainer = styled.section`
     padding: 5rem 5rem;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 680px) {
     flex-direction: column;
   }
 
@@ -39,7 +39,7 @@ export const SearchContainer = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    filter: blur(0.3rem);
+    filter: blur(0.1rem);
     z-index: -1;
   }
 
@@ -60,7 +60,7 @@ export const SearchContainer = styled.section`
       right: 0;
       bottom: 0;
       background-color: var(--secondary-color);
-      opacity: 0.6;
+      opacity: 0.7;
       z-index: -1;
     }
 
