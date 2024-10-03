@@ -1,10 +1,14 @@
+import { FieldValues } from "react-hook-form";
 import SearchForm from "../SearchForm/SearchForm.component";
 import { SearchContainer } from "./Search.styles";
 
 const Search = () => {
+  const handleSearchSubmit = (data: FieldValues) => {
+    console.log(data);
+  };
   return (
     <SearchContainer id="search">
-      <SearchForm />
+      <SearchForm onSubmit={handleSearchSubmit} />
       <section className="text-container">
         <h1>Find Your Perfect Rental Car</h1>
         <p>
