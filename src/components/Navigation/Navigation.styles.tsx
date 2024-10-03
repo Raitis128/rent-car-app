@@ -6,6 +6,7 @@ export const Nav = styled.nav`
   width: 100%;
   position: sticky;
   top: 0;
+  z-index: 3;
 
   header {
     height: 7rem;
