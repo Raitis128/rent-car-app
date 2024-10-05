@@ -27,13 +27,12 @@ export const Links = styled.ul`
   &.hidden-links-show {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    align-items: center;
     background-color: var(--third-color);
+    align-items: center;
+    overflow: hidden;
     padding: 0;
 
     li {

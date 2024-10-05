@@ -6,7 +6,6 @@ export const SearchFormContainer = styled.form`
   flex-direction: column;
   justify-content: space-evenly;
   padding: 2rem;
-  max-width: 50rem;
   width: 100%;
   min-height: 20rem;
   height: 100%;
@@ -24,7 +23,11 @@ export const SearchFormContainer = styled.form`
       display: flex;
       justify-content: space-evenly;
       width: 100%;
-      gap: .5rem;
+      gap: 1rem;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
     }
 
     input {
@@ -33,6 +36,10 @@ export const SearchFormContainer = styled.form`
       text-align: center;
       border: 0.1rem solid var(--border-color);
       font-size: 1.5rem;
+
+      @media screen and (max-width: 768px) {
+        min-width: 95%;
+      }
     }
 
     label {

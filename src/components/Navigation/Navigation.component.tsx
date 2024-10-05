@@ -11,7 +11,10 @@ const Navigation = () => {
   const [isBurgerOpen, setBurgerOpen] = useState(false);
 
   const handleClick = () => {
+    const newBurgerState = !isBurgerOpen;
     setBurgerOpen(!isBurgerOpen);
+
+    document.body.style.overflow = newBurgerState ? "hidden" : "visible";
   };
 
   return (

@@ -42,6 +42,10 @@ export const SearchContainer = styled.section`
     background-attachment: fixed;
     filter: blur(0.1rem);
     z-index: -1;
+
+    @media screen and (max-width: 1026px) {
+      background-attachment: scroll;
+    }
   }
 
   .text-container {

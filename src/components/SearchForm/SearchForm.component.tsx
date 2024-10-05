@@ -55,7 +55,7 @@ const SearchForm = ({ onSubmit }: Props) => {
         {errors.location && <p className="error">{errors.location.message}</p>}
       </section>
       <section className="container">
-        <label htmlFor="pickup">Pick-up date</label>
+        <label htmlFor="pickup">Pick-up date and time</label>
         <section>
           <input {...register("pickupDate")} type="date" id="pickup" />
           <input {...register("pickupTime")} type="time" />
@@ -68,7 +68,7 @@ const SearchForm = ({ onSubmit }: Props) => {
         )}
       </section>
       <section className="container">
-        <label htmlFor="return">Pick-up date</label>
+        <label htmlFor="return">Return date and time</label>
         <section>
           <input {...register("returnDate")} type="date" id="return" />
           <input {...register("returnTime")} type="time" />
