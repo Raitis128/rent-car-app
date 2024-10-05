@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Simple Car
 
-Currently, two official plugins are available:
+**The Car Rental Application** provides users with a seamless experience for exploring available rental vehicles based on their preferences. Users can dynamically search for cars by location and dates, and receive real-time updates on vehicle details, ensuring they find the perfect car for their needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Key Features**:
+1. **Dynamic Search Functionality**: Users can enter their desired location and rental dates to view available cars, making it easy to find options that suit their schedule.
 
-## Expanding the ESLint configuration
+2. **Car Selection Dropdown**: As users select different car names, the app updates the displayed car image and detailed information (such as price, features, and specifications) in real-time, enhancing the browsing experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Informative Sections**: The app includes dedicated sections that outline the benefits of renting with us, frequently asked questions (FAQs), and contact information for customer support, ensuring users have all the information they need.
 
-- Configure the top-level `parserOptions` property like this:
+4. **Responsive Design**: The application is designed to provide an optimal user experience on both desktop and mobile devices, making it accessible for all users.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+**Future Enhancements**:
+To further improve the user experience, I plan to integrate backend systems for a complete rental experience, including booking, payment processing, and account management.
+
+**Target Audience**:
+This application is tailored for individuals and families looking to rent cars for vacations, business trips, or special occasions. It aims to provide an easy-to-use platform that makes the car rental process straightforward and efficient.
+
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#023047](https://via.placeholder.com/10/023047?text=+) #023047 |
+| Secondary Color | ![#ffb703](https://via.placeholder.com/10/ffb703?text=+) #ffb703 |
+| Third Color | ![#e6e8e6](https://via.placeholder.com/10/e6e8e6?text=+) #e6e8e6 |
+| Error Color | ![#B61A1A](https://via.placeholder.com/10/B61A1A?text=+) #B61A1A |
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Raitis128/rent-car-app.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Go to the project directory
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+  cd rent-car-app
 ```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Demo
+
+[Pokemon Search App](https://simple-car.netlify.app/)
