@@ -39,13 +39,9 @@ export const SearchContainer = styled.section`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     filter: blur(0.1rem);
     z-index: -1;
 
-    @media screen and (max-width: 1026px) {
-      background-attachment: scroll;
-    }
   }
 
   .text-container {
