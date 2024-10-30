@@ -19,6 +19,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Automatic",
     features: ["Navigation", "Air Conditioning", "Bluetooth"],
+    dailyRent: 65,
   },
   {
     id: 2,
@@ -29,6 +30,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Manual",
     features: ["Air Conditioning", "Bluetooth", "Rear Parking Sensors"],
+    dailyRent: 45,
   },
   {
     id: 3,
@@ -39,6 +41,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Automatic",
     features: ["Compact Size", "Bluetooth", "Air Conditioning"],
+    dailyRent: 40,
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Automatic",
     features: ["Hybrid Option", "Air Conditioning", "Touchscreen Display"],
+    dailyRent: 50,
   },
   {
     id: 5,
@@ -59,6 +63,7 @@ export const cars = [
     fuelType: "Diesel",
     transmission: "Manual",
     features: ["Air Conditioning", "Bluetooth", "Advanced Safety Features"],
+    dailyRent: 48,
   },
   {
     id: 6,
@@ -69,6 +74,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Manual",
     features: ["Bluetooth", "Air Conditioning", "Rear Parking Sensors"],
+    dailyRent: 46,
   },
   {
     id: 7,
@@ -79,6 +85,7 @@ export const cars = [
     fuelType: "Diesel",
     transmission: "Automatic",
     features: ["Navigation", "Bluetooth", "Advanced Safety Features"],
+    dailyRent: 55,
   },
   {
     id: 8,
@@ -89,6 +96,7 @@ export const cars = [
     fuelType: "Petrol",
     transmission: "Automatic",
     features: ["Air Conditioning", "Bluetooth", "Touchscreen Display"],
+    dailyRent: 47,
   },
   {
     id: 9,
@@ -99,6 +107,7 @@ export const cars = [
     fuelType: "Diesel",
     transmission: "Automatic",
     features: ["Navigation", "Bluetooth", "Air Conditioning"],
+    dailyRent: 54,
   },
   {
     id: 10,
@@ -109,5 +118,6 @@ export const cars = [
     fuelType: "Diesel",
     transmission: "Automatic",
     features: ["Air Conditioning", "Bluetooth", "Cruise Control"],
+    dailyRent: 52,
   },
 ];

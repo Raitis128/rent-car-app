@@ -1,5 +1,6 @@
 import { Nav } from "./Navigation.styles";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
@@ -21,10 +22,10 @@ const Navigation = () => {
     <Nav>
       <header>
         <span>
-          <a href="#search" className="logo">
+          <Link to="/" className="logo">
             <IoCarSportSharp className="car" />
             simple car
-          </a>
+          </Link>
         </span>
         <NavigationLinks className={"default-links"} />
         {isBurgerOpen ? (
